@@ -26,8 +26,12 @@
 		{
 			"args": [],
 			"label": "u_caixaDeTexto"
+		},
+		{
+			"args": [],
+			"label": "u_OlaMundo"
 		}
 	],
-	"lastProgramExecuted": "u_caixaDeTexto",
+	"lastProgramExecuted": "u_OlaMundo",
 	"lastProgramArguments": []
 }
