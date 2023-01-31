@@ -30,8 +30,13 @@
 		{
 			"args": [],
 			"label": "u_OlaMundo"
+		},
+		{
+			"label": "U_z"
+		},
+		{
+			"label": "U_Helloword"
 		}
 	],
-	"lastProgramExecuted": "u_OlaMundo",
-	"lastProgramArguments": []
+	"lastProgramExecuted": "U_Helloword"
 }
