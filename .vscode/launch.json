@@ -36,7 +36,13 @@
 		},
 		{
 			"label": "U_Helloword"
+		},
+		{
+			"label": "U_Func1"
+		},
+		{
+			"label": "U_CaixaEletronico"
 		}
 	],
-	"lastProgramExecuted": "U_Helloword"
+	"lastProgramExecuted": "U_CaixaEletronico"
 }
