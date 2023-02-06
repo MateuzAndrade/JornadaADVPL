@@ -20,13 +20,12 @@ EndIf
 User Function CaixaEletronico()
 
 Local nSaldo := 100
-Local nSaque := 105
+Local nSaque := 80
 
-If nSaldo >= nSaque
-   nSaldo := nSaldo - nSaque
+If nSaldo > nSaque
+   nSaldo := nSaque - nSaldo
    MSGALERT("Saque Realizado novo saldo", "Caixa Eletronico" ) 
 Else
     MSGALERT( "Saldo insuficiente", "Caixa Eletronico" )
 EndIf
 RETURN
-

@@ -42,6 +42,13 @@
 		},
 		{
 			"label": "U_CaixaEletronico"
+		},
+		{
+			"label": "U_DoCase"
+		},
+		{
+			"args": [],
+			"label": "U_DoCase"
 		}
 	],
 	"lastProgramExecuted": "U_CaixaEletronico"
