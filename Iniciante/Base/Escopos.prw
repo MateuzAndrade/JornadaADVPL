@@ -17,7 +17,9 @@ User Function Func1(param_name)
 Return 
 
 User Function Func2()
-
+    //Corpo do Programa
     Alert(cVar2) //Private
     Alert(cVar1) //Local
+
+//Enceramento do programa
 Return
