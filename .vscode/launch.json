@@ -49,7 +49,15 @@
 		{
 			"args": [],
 			"label": "U_DoCase"
+		},
+		{
+			"label": "U_Array"
+		},
+		{
+			"args": [],
+			"label": "U_zArray"
 		}
 	],
-	"lastProgramExecuted": "U_CaixaEletronico"
+	"lastProgramExecuted": "U_zArray",
+	"lastProgramArguments": []
 }

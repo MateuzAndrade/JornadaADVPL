@@ -11,8 +11,8 @@ Static = Visível em todas as funções dentro do fonte onde foi criado.
 
 Tudo que enta entre a function e o return faz parte do escopo daquela função;
 A atribuição a uma variável é feita atrávez do :=
-*****************************************
 
+*****************************************
 Char =  caracter;
 Number = Númericos;
 Date = Datas;
@@ -25,14 +25,15 @@ Null = Informação nula.
  */
 
  USER FUNCTION VarTipos()
-Local cTexto := "Ola Mundo"
-Local nNumero := 0
-Local dData := CTOD("01/01/2021")
-Local lLogical := .T.
-Local aMatriz := {"Mateus"}
-Local bBloco := {||5+10}
-Local oObjeto := NIL
-Local xNull := Nil 
+    Local cTexto := "Ola Mundo"
+    Local nNumero := 0
+    Local dData := CTOD("01/01/2021")
+    Local lLogical := .T. //true e .F. -> False
+    Local aMatriz := {"Mateus"}
+    Local bBloco := {||5+10}
+    Local oObjeto := NIL
+    Local xNull := Nil 
+    Local aSobrenome := Array((3)) //Array pode ser chamando o nome ARRAY ou {} deste modo fica infinito, o Array em ADVPL começa em [1] e não em [0] como de costume.
 
 /*Visivel apenas no escopo local
 É uma boa prática inciar o nome da variavel com a letra do tipo de variavel*/
