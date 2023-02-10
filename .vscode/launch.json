@@ -56,8 +56,10 @@
 		{
 			"args": [],
 			"label": "U_zArray"
+		},
+		{
+			"label": "U_zArrayMultidimensional"
 		}
 	],
-	"lastProgramExecuted": "U_zArray",
-	"lastProgramArguments": []
+	"lastProgramExecuted": "U_zArrayMultidimensional"
 }
