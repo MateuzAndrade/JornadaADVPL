@@ -59,7 +59,16 @@
 		},
 		{
 			"label": "U_zArrayMultidimensional"
+		},
+		{
+			"label": "U_fFormatoNov"
+		},
+		{
+			"label": "U_Operadores"
+		},
+		{
+			"label": "U_zOperadores"
 		}
 	],
-	"lastProgramExecuted": "U_zArrayMultidimensional"
+	"lastProgramExecuted": "U_zOperadores"
 }
