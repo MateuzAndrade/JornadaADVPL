@@ -18,6 +18,10 @@ User Function zOperadores()
         Alert("A Letra A está contido em MATEUS")
     ENDIF
     
+
+
+
+    
     RestArea(aArea)
 RETURN
 
