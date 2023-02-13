@@ -1,11 +1,8 @@
-/*
-*************OPERADORES***************
-*/
-
-User Function zOperadores()
+User Function fOperadores()
     Local aArea :=  GetArea()
     Local cNome := ""
     Local cSobrenome := ""
+    Local nVar := 0
 
 
     // Operador @, permite que a variável seja atualziada quando anterada antes e depois de suas atribuições
@@ -18,9 +15,9 @@ User Function zOperadores()
         Alert("A Letra A está contido em MATEUS")
     ENDIF
     
-
-
-
+    //Operador ** ou ^ = indicador de potência
+    nVar := 5 **3
+    Alert ("5^3 = " + cValToChar(nVar))
     
     RestArea(aArea)
 RETURN
