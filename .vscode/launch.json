@@ -71,7 +71,10 @@
 		},
 		{
 			"label": "U_fOperadores"
+		},
+		{
+			"label": "U_ZCaixaEletronico"
 		}
 	],
-	"lastProgramExecuted": "U_fOperadores"
+	"lastProgramExecuted": "U_ZCaixaEletronico"
 }
