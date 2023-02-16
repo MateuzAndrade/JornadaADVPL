@@ -74,7 +74,25 @@
 		},
 		{
 			"label": "U_ZCaixaEletronico"
+		},
+		{
+			"label": "U_zDoCase"
+		},
+		{
+			"label": "U_zLif"
+		},
+		{
+			"label": "U_zIif"
+		},
+		{
+			"label": "U_zForNext"
+		},
+		{
+			"label": "U_zIuf"
+		},
+		{
+			"label": "U_zlogic"
 		}
 	],
-	"lastProgramExecuted": "U_ZCaixaEletronico"
+	"lastProgramExecuted": "U_zlogic"
 }

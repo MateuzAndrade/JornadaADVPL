@@ -23,10 +23,15 @@ User Function zCaixaEletronico()
     Local nSaque := 80
 
     If nSaque <= nSaldo
-    nSaldo := nSaldo - nSaque
-    MSGALERT("Saque Realizado novo saldo: ",  nSaldo ) 
+        nSaldo := nSaldo - nSaque
+        MSGALERT("Saque Realizado novo saldo: ",  nSaldo ) 
     Else
         MSGALERT( "Saldo insuficiente", "Caixa Eletronico" )
     EndIf
+
+    If Positivo(nSaldo)
+        MSGALERT( "Numero Positivo", "Teste" )
+    EndIf
+    
 
 RETURN

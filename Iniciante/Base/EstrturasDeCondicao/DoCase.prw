@@ -11,16 +11,14 @@ Do Case
         -Comandos
 End Case
 */
-user Function DoCase()
+user Function ZDoCase()
 Local nNumber := 10
 
 Do Case 
-    Case nNumber > 0
+    Case ValPos(nNumber)
         MSGALERT( "Numero Positivo", "Valida Número")
-    Case nNumber < 0
-        MSGALERT( "Numero Negativo","Valida Número")
     OTHERWISE
-        MsgAlert("Número é Zero")
+        MSGALERT( "Numero Negativo","Valida Número")
 ENDCASE
 
 Return return_var
