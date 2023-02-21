@@ -1,6 +1,4 @@
-#INCLUDE "Totvs.ch"
-
-User Function Query()
+User Function zlogic15()
     Local aArea := GetArea()
     Local cQrySA2 := ""
     Local nAtual := 0
@@ -27,10 +25,7 @@ User Function Query()
         QRY_SA2->(DBSkip())
     ENDDO
     
-
-
-
-
+    MsgInfo(cValToChar(nAtual)," fornecedor(es) ecnontrado(s)!", "Atenção")
     RestArea(aArea)
     
 Return return_var

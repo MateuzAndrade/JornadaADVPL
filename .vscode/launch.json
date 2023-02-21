@@ -95,7 +95,16 @@
 		},
 		{
 			"label": "U_zWhileEndDo"
+		},
+		{
+			"label": "U_zLogic17"
+		},
+		{
+			"label": "SIGAADV"
+		},
+		{
+			"label": "U_zMiniForm"
 		}
 	],
-	"lastProgramExecuted": "U_zWhileEndDo"
+	"lastProgramExecuted": "SIGAADV"
 }

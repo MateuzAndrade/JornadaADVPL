@@ -1,0 +1,4 @@
+Em ADVPL um código é executado após o outro, em modo cascata
+
+MVC -> Model View Controller
+Auxilia na manunteção do código, assim você precisa atualizar o código em apenas um campo.

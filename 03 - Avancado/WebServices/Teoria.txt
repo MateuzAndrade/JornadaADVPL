@@ -1,0 +1,33 @@
+*****************SOAP & REST***********************
+Soap -> É mais robusto, usado geralmente por Governos, mas ele trabalha apenas com XML;
+Rest -> É mais simples (mais moderno), usando várias formas de envio como XML,JSON,TXT.
+Qual usar? -> REST
+***************************************************
+
+-------------Camada de Segurnça--------------------
+1 -Direto do Fonte          [Não recomendado]
+2 -Basic Token              [User e senha com Base64]
+3 -Usando Bearer Token      [Acesso com expiração de tempo]
+----------------------------------------------------
+
+########### Nomeclaturars usadas no REST ###########
+Header        -> Cabeçalhodo envio, com informações como autenticação
+Body          -> Corpo da mensagem, como por exemplo, o JSON a ser processado
+Content-Types -> tipo do conteúde, codificação utilizada
+#####################################################
+
+************* GET, POST, PUT, DELET *****************
+Get   -> Buscar informações
+Post  -> Incluir registros
+PUT   -> Atualização
+Delet -> Apagar
+*****************************************************
+
+---------------Entendendo o XML----------------------
+Estrutura de TAGS, bem semelhante ao HTML
+-----------------------------------------------------
+
+===============Entendendo O JSON=====================
+Utiliza a forma de chave e valor,aceita string e number
+Os [] representam os Array`s
+=====================================================
