@@ -1,20 +1,27 @@
+#include "TOTVS.ch"
+
 user function zOO2()
-    Local nJanAltu      := 400
-    Local nJanLarg      := 800
-    LOCAL lDimPixels    := .T.
-    Local lCentraliz    := .T.
-    Local cJanTitulo    :="Segunda Tela em ADVPL, Desta Vez com EnchoiceBar"
-    Local bBlocoOk      := {|| lOk := .T., oDlgAux:END()}
-    Local bBlocoCan     := {|| lOk := .F., oDlgAux:END()}
-    LOCAL aOutrasAc     := {{"BMP", {|| Alert("Cliquei no 1")}, "BOTAO 1"}, {"BMP",{|| Alert("Cliquei no 2")},"BOTAO2"}}
-    Local bBlocoIni     := {|| EnchoiceBar(oDlgAux,bBlocoOk,bBlocoCan,,aOutrasAc)}
-    Private lOk         :=.F.
+    Local nJanAltu   := 200
+    Local nJanLarg   := 600
+    Local lDimPixels := .T.
+    Local lCentraliz := .T.
+    Local bBlocoOk   := {|| lOk := .T., oDlgAux:End()}
+    Local bBlocoCan  := {|| lOk := .F., oDlgAux:End()}
+    Local aOutrasAc  := { {"BMP", {|| Alert("Cliquei no 1")}, "Botão 1"}, {"BMP", {|| Alert("Cliquei no 2")}, "Botão 2"} }
+    Local bBlocoIni  := {|| EnchoiceBar(oDlgAux, bBlocoOk, bBlocoCan, , aOutrasAc)}
+    Local cJanTitulo := "Tela usando TDialog com EnchoiceBar"
     Private oDlgAux
+    Private lOk      := .F.
 
-    //Chamada da Tela
-    oDlgAux = TDialog():New(0,0,nJanAltu,nJanLarg,cJanTitulo,,,,,,/*Cor de Fundo*/,,,lDimPixels)
+    //Cria a dialog
+    oDlgAux := TDialog():New(0, 0, nJanAltu, nJanLarg, cJanTitulo, , , , , , /*nCorFundo*/, , , lDimPixels)
 
-    //Ativar e Exibir a tela
-    oDlgAux:ACTIVATE(,,,lCentraliz,,,bBlocoIni)
+    //Ativa e exibe a janela
+    oDlgAux:Activate(, , , lCentraliz, , , bBlocoIni)
+
+    //Se o retorno for positivo, foi clicado no botão Confirmar ao invés do Cancelar
+    If lOk
+        FWAlertSuccess("Foi clicado no botão Confirmar!", "OK")
+    EndIf
 
 RETURN
