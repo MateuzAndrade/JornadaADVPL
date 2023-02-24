@@ -13,9 +13,20 @@ User Function zOO3()
     Local nObjLargu     := 0
     Local nObjAltur     := 0
     Private oDialogPvt 
-    Private bBlocoIni   := {|| Alert("TESTE DE FUNÇÃO")} //Aqui voce pode acionar funcoes customizadas que irao ser acionadas ao abrir a dialog 
+    Private bBlocoIni   := {|| Alert("TESTE DE FUNÇÃO")}
+
+    //Objeto0
+    Private oSayIbj0
+    Private oSayIbj0 := 'Tahoma,-12, Nomal'
+    Private oFontPad := Tfont():New("Tahoma",,-12)
 
     oDialogPvt := TDialog():New(0,0,nJanAltura,nJanLargur,cJanTitulo,,,,,,nCorFundo,,,lDimPixels)
+
+    nObjLinha := 9
+    nObjColun := 7
+    nObjLargu := 200
+    nObjAltur := 20
+    oSayObj0  := TSay():New(nObjLinha, nObjColun, {|| cSayObj0}, oDialogPvt, /*cPicture*/, oFontPad, , , , lDimPixels, /*nClrText*/, /*nClrBack*/, nObjLargu, nObjAltur, , , , , , /*lHTML*/)
 
     //Ativa e exibe a janela
     oDialogPvt:Activate(, , , lCentraliz, , , bBlocoIni)
